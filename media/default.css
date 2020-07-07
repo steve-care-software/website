@@ -1,0 +1,13 @@
+body {
+    font-family: verdana;
+    font-size: 12px;
+    background-color: #000000;
+    font-color: #ffffff;
+}
+
+#container {
+    width: 1024px;
+    margin: 0px auto 0px auto;
+    background-color: #ffffff;
+    font-color: #000000;
+}
