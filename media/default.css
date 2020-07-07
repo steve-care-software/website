@@ -2,12 +2,40 @@ body {
     font-family: verdana;
     font-size: 12px;
     background-color: #000000;
-    font-color: #ffffff;
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
 }
 
 #container {
     width: 1024px;
     margin: 0px auto 0px auto;
     background-color: #ffffff;
-    font-color: #000000;
+    color: #000000;
+    padding: 10px;
+    line-height: 160%;
+}
+
+#container a {
+    color: #000000;
+}
+
+#logo {
+    width: 400px;
+    height: 226px;
+    display: block;
+    background-image: url('images/stevecare_logo_400x226.png');
+    margin: 0px auto 0px auto;
+}
+
+#logo span {
+    display: none;
+}
+
+#footer {
+    text-align: center;
+    margin: 20px auto 0px auto;
+    padding: 5px;
 }
